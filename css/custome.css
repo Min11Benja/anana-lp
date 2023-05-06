@@ -1,0 +1,53 @@
+/*
+╔ ═ ═ ═ ═ ═ ═ ═ ═ ═ ═ ═ ═ ═ ═ ═ ═ ═ ═ ═ ═  ═ ═ ═ ═ ═ ═ ╗
+       \||/
+       \||/     Tema: Anana_Casa_Creativa              
+     .<><><>.   Autor: Benjamin (www.min11benja.com)
+    .<><><><>.  Fecha Creacion: 01 Abril 2018
+    '<><><><>'  Contacto: redoxz811@gmail.com
+    ''<><><>''   
+      `''''´    
+╚ ═ ═ ═ ═ ═ ═ ═ ═ ═ ═ ═ ═ ═  ═ ═ ═ ═ ═ ═ ═ ═ ═ ═ ═ ═ ═ ╝*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Fuente
+# Header
+# 
+--------------------------------------------------------------*/
+
+/*Futura & Arial por default*/
+
+@font-face {
+    font-family: "Futura-titulo";
+    src: url(../font/futura-bold-font.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Futura-text";
+    src: url(../font/futura-light-bt.ttf) format("truetype");
+}
+
+/*Header*/
+
+.navbar > .container {
+    position: relative;
+}
+
+.navbar-expand-lg > .container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .9rem;
+    padding-left: .9rem;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+}
+
+.navbar-light.bg-faded {
+  background: #fff;
+  border-bottom: 0px; 
+}
